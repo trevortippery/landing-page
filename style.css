@@ -1,15 +1,24 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
 }
 
-.header-bar {
+.header{
     display: flex;
     background-color: #1f2937;
+    color: #f9faf8;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header-logo {
-    font-size: 24px;
-    color: #f9faf8;
+    display: flex;
     font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
 }
