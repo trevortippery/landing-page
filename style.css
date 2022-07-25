@@ -17,13 +17,14 @@ body {
     align-items: center;
     justify-content: space-around;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
 }
 
 .header-logo {
     display: flex;
     font-size: 24px;
     font-weight: bold;
+    padding-right: 150px;
 }
 
 .header-link a {
@@ -36,14 +37,16 @@ body {
 .body-one {
     display: flex;
     background-color: #1f2937;
-    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
 }
 
 .left {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    padding-left: 150px;
+    width: 425px;
+    padding-right: 96px;
 }
 
 .hero {
@@ -63,7 +66,7 @@ body {
     padding: 8px;
     border: none;
     background-color: #3882F6;
-    width: 100px;
+    width: 125px;
     border-radius: 8px;
 }
 
@@ -76,9 +79,9 @@ body {
 
 .image {
     display: flex;
-    background-color: rgb(106, 106, 106);
+    background-color: grey;
     justify-content: center;
     align-items: center;
-    height: 200px;
     width: 500px;
+    height: 200px;
 }
