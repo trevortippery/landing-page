@@ -149,3 +149,18 @@ body {
     padding-left: 500px;
     margin-top: 0;
 }
+
+.body-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-five {
+    display: flex;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
